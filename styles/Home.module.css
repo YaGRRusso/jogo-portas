@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home > div {
+  display: flex;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.link:hover {
+  text-shadow: 6px 6px 5px #00000050;
+}

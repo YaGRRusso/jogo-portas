@@ -1,0 +1,8 @@
+.cartao {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 250px;
+  width: 300px;
+  box-shadow: 5px 10px 8px 10px #00000050;
+}

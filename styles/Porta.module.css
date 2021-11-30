@@ -11,10 +11,12 @@
 .estrutura {
   display: flex;
   flex: 1;
+  flex-direction: column-reverse;
   border-left: 5px solid #a74c1f;
   border-top: 5px solid #a74c1f;
   border-right: 5px solid #a74c1f;
   width: 95%;
+  background-color: #0005;
 }
 
 .porta {
@@ -34,7 +36,7 @@
 .macaneta {
   position: absolute;
   bottom: calc(0.45 * var(--area-porta-altura));
-  left: 20px;
+  align-self: flex-start;
 	height: 20px;
   width: 20px;
   border-radius: 10px;
@@ -46,6 +48,7 @@
   height: 10px;
   width: 100%;
   background-color: #ddd;
+  border-radius: 3px;
 }
 
 .selecionada {
